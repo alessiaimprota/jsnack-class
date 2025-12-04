@@ -5,8 +5,8 @@ const numeroDue = parseInt(prompt("inserisci il secondo numero"));
 console.log(typeof numeroDue, typeof numeroUno);
 
 if(numeroUno > numeroDue){
-    console.log(numeroUno)
+    console.log(`il numero maggiore è ${numeroUno}`)
 }
 else {
-    console.log(numeroDue)
+    console.log(`il numero maggiore è ${numeroDue}`)
 };
