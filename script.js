@@ -28,7 +28,7 @@ Snack 5
  Crea un array vuoto. 
  Chiedi per 6 volte all’utente di inserire un numero, 
  se è dispari inseriscilo nell’array*/
-
+/*
  const newList = []
  let userNumber; 
  
@@ -40,9 +40,22 @@ Snack 5
     }
 }
 console.log(newList)
+*/
 
 
+ //L’utente inserisce due parole in successione, con due prompt. 
+ //Il software stampa prima la parola più corta, poi la parola più lunga.
+ let firstWordInput= prompt("Inserisci una parola")
+ let secondWordInput= prompt("Inserisci una seconda parola")
+ let firstWordLenght= firstWordInput.length
+ let secondWordLenght= secondWordInput.length
 
- /*L’utente inserisce due parole in successione, con due prompt. 
- 
- Il software stampa prima la parola più corta, poi la parola più lunga.*/
+ if(firstWordLenght>secondWordLenght){
+    console.log(`${firstWordInput} è più lunga di ${secondWordInput}`)
+ }
+else if(secondWordLenght> firstWordLenght){
+console.log(`${secondWordInput} è più lunga di ${firstWordInput}`)
+}
+else{
+    console.log(`Le due parole hanno la stessa lunghezza`)
+}
