@@ -7,6 +7,9 @@ console.log(typeof numeroDue, typeof numeroUno);
 if(numeroUno > numeroDue){
     console.log(`il numero maggiore è ${numeroUno}`)
 }
+else if(numeroDue===numeroUno){
+console.log(`i numeri sono uguali`)
+}
 else {
     console.log(`il numero maggiore è ${numeroDue}`)
 };
